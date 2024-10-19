@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2? family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+
+<!-- -------------- blog page content --------------->
+ <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="certificate.jpeg">
+            <h2>Our Certificate & Online Programs For 2024</h2>
+            <p>Rameshwar Dayal Engineering College (RDEC), affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU), has consistently produced a number of outstanding students over the years. Among them, the toppers from RDEC who have excelled in the university exams are held in high regard, as their achievements reflect a combination of hard work, dedication, and a commitment to academic excellence. The topper of AKTU from RDEC College stands out not just for their academic brilliance but also for their holistic development, often participating in extracurricular activities and showing leadership qualities that inspire peers.</p>
+            <br>
+            <p>The topper’s journey to the top begins with a clear focus on academics. At RDEC, a structured approach to learning is encouraged, and the topper has embraced this environment, excelling in every subject. With a curriculum designed by AKTU that focuses on both theoretical and practical aspects of engineering, the topper not only mastered core concepts but also demonstrated exceptional problem-solving skills in technical subjects like mathematics, physics, and specialized engineering courses.</p>
+            <br>
+            <p>Engineering education at RDEC, in line with AKTU’s vision, emphasizes hands-on learning and application of knowledge. The topper's success is marked by active participation in projects, internships, and research. By engaging in real-world engineering problems, the topper gained practical experience, which contributed to a deep understanding of the subject matter. Their final year project, which focused on [insert project topic], was highly appreciated by both faculty members and industry experts, further cementing their status as a standout student.</p>
+
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter E-mail">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+
+            </div>
+
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3> Post categories</h3>
+            <div>
+                <span>Computer Science</span>
+                <span>24</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>32</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>54</span>
+            </div>
+            <div>
+                <span>Mechanical Engineering</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>AIML</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Civil Engineering</span>
+                <span>21</span>
+            </div>
+        </div>
+    </div>
+ </section>
+
+
+<!------- Footer -------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>R.D. Engineering College, Ghaziabad was established in 2006 by Rameshwar Dayal Educational Trust affiliated to Dr. APJ Abdul Kalam Technical University, Lucknow </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> Easy Tutorials</p>
+</section>
+
+
+<!--------JavaScript for Toggle Menu----------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+
+</script>
+    
+</body>
+</html>
